@@ -1,0 +1,7 @@
+{
+    "command.copyAsMyOption": "复制gitee远程链接",
+    "message.selectedLinesAndCommitHash": "选中的行: {0}-{1}, 提交哈希: {2}",
+    "error.noSelection": "未选择任何文本。",
+    "error.noWorkspace": "未找到工作区文件夹。",
+    "message.copiedSuccessfully": "已成功将 \"{0}\" 复制到剪贴板。"
+}

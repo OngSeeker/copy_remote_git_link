@@ -1,0 +1,7 @@
+{
+    "command.copyAsMyOption": "copy gitee remote lint",
+    "message.selectedLinesAndCommitHash": "Selected lines: {0}-{1}, Commit hash: {2}",
+    "error.noSelection": "No text selected.",
+    "error.noWorkspace": "No workspace folder found.",
+    "message.copiedSuccessfully": "Copied \"{0}\" to clipboard successfully."
+}
