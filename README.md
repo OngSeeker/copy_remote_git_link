@@ -4,4 +4,4 @@
 ## 安装
 VScode 扩展搜索 'copy remote git link'
 ## TODO
--[] 适配多种代码托管平台
+- [ ] 适配多种代码托管平台
