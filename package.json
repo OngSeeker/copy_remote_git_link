@@ -1,5 +1,6 @@
 {
   "name": "copy-remote-git-link",
+  "publisher":"OngSeeker",
   "displayName": "copy remote git link",
   "description": "none",
   "version": "0.0.1",
