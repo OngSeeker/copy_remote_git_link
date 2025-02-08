@@ -1,9 +1,3 @@
-# Change Log
+#### ver1.0.0 (2025/2/8)
 
-All notable changes to the "copy-remote-git-link" extension will be documented in this file.
-
-Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how to structure this file.
-
-## [Unreleased]
-
-- Initial release
+初始版本^-^

@@ -8,7 +8,6 @@ function getCurrentBranchHash(repoPath: string): string | null {
         const result = cp.execSync('git rev-parse HEAD', { cwd: repoPath }).toString().trim();
         return result;
     } catch (e) {
-        console.error("获取Git哈希值时出错:", e);
         return null;
     }
 }
@@ -30,7 +29,6 @@ function getRemoteUrl(repoPath: string): string | null {
         const result = cp.execSync('git remote get-url origin', { cwd: repoPath }).toString().trim();
         return result;
     } catch (e) {
-        console.error("获取远程仓库地址时出错:", e);
         return null;
     }
 }
@@ -85,7 +83,7 @@ export function activate(context: vscode.ExtensionContext) {
 
 	const copyGiteeLink = vscode.commands.registerCommand('copy-gitee-remote-lint.copyGiteeLink', async () => {
 		const selectedLines = getSelectedLines();
-		if (selectedLines) {
+		if (!selectedLines) {
 			vscode.window.showErrorMessage(vscode.l10n.t('error.noSelection'));
 			return;
 		}
